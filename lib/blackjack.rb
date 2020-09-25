@@ -44,14 +44,14 @@ end
 
 def hit?(current_total)
   # code hit? here
-  binding.pry
+ # binding.pry
   prompt_user
   input = get_user_input
   if input == 'h'
     new_card = deal_card
     current_total += new_card 
   elsif input != 's' && input != 'h'
-  binding.pry 
+ # binding.pry 
     prompt_user
     invalid_command
   end 
