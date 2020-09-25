@@ -67,9 +67,9 @@ def runner
   # code runner here
   welcome
   initial_round
-  new_total = hit?(current_total)
-  if new_total > 21
-  end_game
-  end 
+  i = 0 
+  until i > 21
+    new_total = hit?(current_total)
+  
 end
     
