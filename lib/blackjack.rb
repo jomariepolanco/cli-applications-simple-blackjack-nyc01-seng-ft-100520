@@ -66,10 +66,6 @@ end
 def runner
   # code runner here
   welcome
-  initial_round
-  i = 0 
-  until i > 21
-    new_total = hit?(current_total)
-  end 
+
 end
     
