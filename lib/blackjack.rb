@@ -44,6 +44,7 @@ end
 
 def hit?(current_total)
   # code hit? here
+  binding.pry
   prompt_user
   input = get_user_input
   if input == 'h'
