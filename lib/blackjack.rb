@@ -66,6 +66,7 @@ end
 def runner
   # code runner here
   welcome
+  binding.pry 
   total = initial_round
   hit?(total)
   until total <= 21 
