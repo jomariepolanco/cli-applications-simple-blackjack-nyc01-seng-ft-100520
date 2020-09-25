@@ -52,8 +52,8 @@ def hit?(current_total)
     current_total += new_card 
   elsif input == 's'
     current_total
-  elsif input != 's' && input != 'h'
- # binding.pry 
+  end 
+  if input != 's' && input != 'h'
     prompt_user
     invalid_command
   end 
