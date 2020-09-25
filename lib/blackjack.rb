@@ -50,8 +50,8 @@ def hit?(current_total)
     new_card = deal_card
     current_total += new_card 
   elsif input != 's' && input != 'h'
-    puts invalid_command
-    puts prompt_user
+    invalid_command
+    prompt_user
   end 
   current_total 
 end
