@@ -54,7 +54,7 @@ def hit?(current_total)
     current_total
   elsif input != 's' && input != 'h'
     invalid_command
-    prompt_user
+    hit?(current_total)
   end 
   current_total 
 end
